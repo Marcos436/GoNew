@@ -3,6 +3,7 @@ package main
 import (
 	"html/template"
 	"net/http"
+	"github.com/Marcos436/GoNew/models"
 )
 
 var templ = template.Must(template.ParseGlob("templates/*.html"))
